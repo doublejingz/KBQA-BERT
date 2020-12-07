@@ -32,11 +32,11 @@
 
     bert文件夹是google官方下载的
     Data文件夹存放原始数据和处理好的数据
-        construct_dataset.py  生成NER_Data的数据
-        construct_dataset_attribute.py  生成Sim_Data的数据
-        triple_clean.py  生成三元组数据
-        load_dbdata.py  将数据导入mysql db
-    ModelParams文件夹需要下载BERT的中文配置文件：chinese_L-12_H-768_A-12
+        construct_dataset.py  生成NER_Data的数据||NER_Data
+        construct_dataset_attribute.py  生成Sim_Data的数据||Sim_Data
+        triple_clean.py  生成三元组数据||DB_Data
+        load_dbdata.py  将数据导入mysql db||
+    ModelParams文件夹需要下载BERT的中文配置文件：chinese_L-12_H-768_A-12||自行下载放在ModelParams目录下
     Output文件夹存放输出的数据
     
     基于BERT的命名实体识别模块
